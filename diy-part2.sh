@@ -18,7 +18,7 @@ sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/files/bin/config_gener
 #git clone -b packages --depth 1 https://github.com/xiaorouji/openwrt-passwall.git package/passwall/
 
 # luci-app-ssrp
-git clone -b master --depth 1 https://github.com/fw876/helloworld.git package/helloworld/
+#git clone -b master --depth 1 https://github.com/fw876/helloworld.git package/helloworld/
 
 # luci-theme-argon
 #rm -rf feeds/luci/themes/luci-theme-argon/
