@@ -13,6 +13,6 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/files/bin/config_generate
 
-# luci-theme-argon
-rm -rf feeds/luci/themes/luci-theme-argon/
-git clone -b 18.06 --depth 1 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/themes/luci-theme-argon/
+# luci-theme
+git clone -b 18.06 --depth 1 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon/
+git clone -b main --depth 1 https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird/
